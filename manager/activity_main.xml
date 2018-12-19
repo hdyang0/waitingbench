@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="현재 대기 중인 팀:"
+        android:textSize="60dp" />
+
+    <TextView
+        android:id="@+id/currentWaitingNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="0"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="164dp"
+        android:layout_height="107dp"
+        android:text="입장 "
+        android:textSize="20dp" />
+
+</LinearLayout>
